@@ -1,0 +1,37 @@
+    /* {
+    margin-top: 100px;
+    margin-left: 8px;
+    margin-right: 8px;
+    } */
+
+    nav > ul {
+        display: flex;
+        list-style-type: none;
+        padding: 14px 0 14px 0;
+        /*When three values are specified, the first margin applies to the top, the second to the right and left, the third to the bottom.*/
+        margin: -8px -8px -8px;
+        background-color: white;
+        border: 1px dashed red;
+    }
+    li a {
+        border: 1px solid #000;
+        padding: 10px 30px;
+        text-decoration: none;
+        color: black;
+    }
+/* display: flex; has to be active within the container or main elements for this to be possible. for the 1st example you use justify content: space-between; which will space
+ link 2,3, and 4 leaving 1 and 5 at the edge of the box */
+    /* .link1{
+    
+    }
+    .link2{
+
+    }
+    .link3{
+        
+    }
+    .link4{
+    }
+     */
+    /* link5{
+    margin-right: auto; this is to move to move completely to the right */

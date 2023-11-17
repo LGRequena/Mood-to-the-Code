@@ -1,0 +1,25 @@
+.card-body {
+    border: 1px solid black;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    }
+
+.img-container img {
+    height: 200px;
+    width: 200px;
+    
+}
+
+.card-body p, .title h1 {
+    
+    align-items: flex-end;
+    font-size: 12px;
+    flex-wrap: wrap;
+    }
+
+/* .title h1 {
+    justify-content: center;
+    font-size: medium;
+    margin-right: 10px;
+    } */

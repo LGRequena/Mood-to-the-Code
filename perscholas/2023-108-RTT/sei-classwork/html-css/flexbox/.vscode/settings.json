@@ -1,0 +1,9 @@
+{
+    "prettier.enableDebugLogs": true,
+    "prettier.endOfLine": "auto",
+    "prettier.htmlWhitespaceSensitivity": "ignore",
+    "prettier.insertPragma": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.colorDecoratorsLimit": 999999,
+    "prettier.useTabs": true
+}
