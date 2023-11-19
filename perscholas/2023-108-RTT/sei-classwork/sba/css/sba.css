@@ -1,4 +1,4 @@
-.ul {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -6,23 +6,22 @@
     background-color: #444;
 }
 
-.li {
+li {
     float: left;
     border-right: none;
 }
 
-.li, a {
+li a {
     display: block;
     color: royalblue;
     text-align: center;
     padding: 14px 16px;
 }
 
-.li a:hover:not(active) {
+li a:hover:not(active) {
     background-color: aqua;
 }
 
-.img {
-    height: ;
-    width: ;
+h1 {
+    color: aqua;
 }
