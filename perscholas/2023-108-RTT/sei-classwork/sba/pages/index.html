@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="D:\Mood to the Code\Mood-to-the-Code\perscholas\2023-108-RTT\sei-classwork\sba\css\sba0.css">
+            <title>sba</title>
+            <!-- External CCS will not connect to my VScode I deleted git and VSC then reinstalled it -->
+            <!-- I tried obtaining the repository and branch that I made but git keeps connecting to (old master) -->
+            <!-- on VSC it shows I'm on what is connected to github -->
+        </head>
+    <body>
+            <header>
+                <h1>Rude & Snooty Art</h1>
+            </header>
+        <nav class="menu">
+            <form>
+                <label for="MEN"></label>
+                    <select name="MEN">
+                    <option value="MEN">MEN</option>
+                    <option value="Outerwear">Outerwear</option>
+                    <option value="Tops">Tops</option>
+                    <option value="Accessories">Accessories</option>
+                    </select>
+            </form>
+            <form>
+                <label for="WOMEN"></label>
+                    <select name="WOMEN">
+                    <option value="WOMEN">WOMEN</option>
+                    <option value="Outerwear">Outerwear</option>
+                    <option value="Tops">Tops</option>
+                    <option value="Accessories">Accessories</option>
+                    </select>
+            </form> 
+            <form>     
+                <label for="UNISEX"></label>
+                    <select name="UNISEX">
+                    <option value="UNISEX">UNISEX</option>
+                    <option value="Outerwear">Outerwear</option>
+                    <option value="Tops">Tops</option>
+                    <option value="Accessories">Accessories</option>
+                    </select>
+            </form>
+        </nav>
+        <main>
+            <video width="400" height="420" controls><source src="D:\Mood to the Code\Mood-to-the-Code\perscholas\2023-108-RTT\sei-classwork\sba\videos\edit draw process.mp4" type="video/mp4"></video>
+        </main>
+        <aside>
+            <ul>
+                <li><a href="index.html">Home</a></li><hr>
+                <li><a href="wp1.html">About</a></li><hr>
+                <li><a href="wp3.html">Art</a></li><hr>
+                <li><a href="wp2.html">Contact</a></li><hr>
+            </ul>
+        </aside>
+        <footer>
+            &copy; 2023 Rude & Snooty Art
+        </footer>
+        <style>
+                body {
+                    display: flex;
+                    border: solid 5px #183d6d;
+                }
+                /* CSS for the header */
+                header {
+                    background-color: #183d6d;
+                    color: #fff;
+                    text-align: center;
+                    padding: 10px;
+                    align-content: flex-start;
+                }
+                /* left side menu */
+                nav .menu {
+                    background-color: #444;
+                    text-align: center;
+                    padding: 10px;
+                    width: 20%;
+                    height: 400px;
+                    margin: 0;
+                    justify-content: flex-start;
+                }
+
+                form {
+                    margin-top: 30px;
+                }
+
+                main {
+                align-content: center;
+                }
+
+                /* right side menu */
+                aside {
+                    background-color: #ddd; /* Right sidebar background color */
+                    width: 20%;
+                    height: 400px;
+                    padding: 10px;
+                    text-align: center;
+                    justify-content: right;
+                }
+
+                aside, ul, a {
+                    list-style-type: none;
+                }
+
+                footer {
+                    background-color: #333;
+                    color: #fff;
+                    text-align: center;
+                    padding: 10px;
+                    align-items: flex-end;
+                }
+        </style>
+    </body>
+</html>
