@@ -12,7 +12,7 @@
   const lessThan25 = n1 < 25 || n2 < 25 || n3 < 25 || n4 < 25;
   console.log(lessThan25);
 
-/*    MATH PROBLEM 2 */
+/*    MATH PROBLEM 2  */
 const distance = 1500;
 const fuelBudget = 175;
 const avgCostPerGal = 3;
